@@ -1,4 +1,4 @@
-# colin-book-search-engine
+# Colin-book-search-engine
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
