@@ -5,6 +5,8 @@
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
+    "seed": "node seeders/seeds.js",
+    "watch": "nodemon",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
@@ -14,5 +16,10 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.17",
+    "apollo-server-express": "^2.15.0",
+    "graphql": "^15.7.2"
   }
 }
